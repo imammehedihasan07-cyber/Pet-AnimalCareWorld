@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>कैट एज कैलकुलेटर: इंसानों की उम्र में बिल्ली की उम्र की गणना करें | पेट एंड एनिमल केयर वर्ल्ड</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="हमारे मुफ्त कैट एज कैलकुलेटर का उपयोग करके मानक पशु चिकित्सा दिशानिर्देशों के आधार पर इंसानों की उम्र में अपनी बिल्ली की सटीक उम्र की गणना करें।">
+    <meta name="keywords" content="कैट एज कैलकुलेटर, बिल्ली की उम्र की गणना, इंसानों की उम्र में बिल्ली की उम्र">
+    <link rel="canonical" href="https://petandanimalcareworld.com/hi/tools/" />
+
+    <!-- Hreflang SEO Tags -->
+    <link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/tools/" />
+    <link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/tools/" />
+    <link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/tools/" />
+    <link rel="alternate" hreflang="x-default" href="https://petandanimalcareworld.com/en/tools/" />
+
+    <!-- Structured Data (JSON-LD) for Google Search Engine -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "कैट एज कैलकुलेटर",
+      "url": "https://petandanimalcareworld.com/hi/tools/",
+      "description": "मानक पशु चिकित्सा दिशानिर्देशों के आधार पर बिल्ली की उम्र को मानव उम्र में बदलने के लिए इंटरैक्टिव टूल।",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <!-- Google Fonts & Hindi Font Support -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../../assets/css/variables.css">
+    <link rel="stylesheet" href="../../assets/css/global.css">
+    <link rel="stylesheet" href="../../assets/css/header.css">
+    <link rel="stylesheet" href="../../assets/css/footer.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+    <link rel="stylesheet" href="../../assets/css/tools.css">
+
+    <style>
+        body {
+            font-family: 'Hind', var(--font-primary);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation Section -->
+    <header class="site-header">
+        <div class="container header-inner">
+            
+            <!-- Brand Logo -->
+            <a href="../" class="brand-logo">
+                🐾 Pet Care <span>World</span>
+            </a>
+
+            <!-- Mobile Hamburger Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">
+                ☰
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="../" class="nav-link">होम</a></li>
+                    <li><a href="../cats/" class="nav-link">बिल्लियाँ</a></li>
+                    <li><a href="../dogs/" class="nav-link">कुत्ते</a></li>
+                    <li><a href="../birds-small-pets/" class="nav-link">पक्षी और छोटे जीव</a></li>
+                    <li><a href="../veterinary-health/" class="nav-link">पशु चिकित्सा</a></li>
+                    <li><a href="../nutrition/" class="nav-link">पोषण</a></li>
+                    <li><a href="../grooming/" class="nav-link">ग्रूमिंग</a></li>
+                    <li><a href="./" class="nav-link active">टूल्स</a></li>
+                </ul>
+            </nav>
+
+            <!-- Language Switcher Utility -->
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn" id="langBtn" onclick="toggleLangDropdown()">
+                        🌐 <span>हिन्दी</span> ▾
+                    </button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <a href="../../en/tools/" class="lang-option" onclick="selectLang('en')">🇺🇸 English</a>
+                        <a href="../../bn/tools/" class="lang-option" onclick="selectLang('bn')">🇧🇩 বাংলা</a>
+                        <a href="../../hi/tools/" class="lang-option" onclick="selectLang('hi')">🇮🇳 हिन्दी</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container">
+        
+        <!-- Interactive Calculator Tool -->
+        <div class="tool-card">
+            <div class="tool-header">
+                <h1>🐱 कैट एज कैलकुलेटर</h1>
+                <p>पशु चिकित्सा मानकों के अनुसार अपनी बिल्ली की उम्र की गणना इंसानों की उम्र में करें।</p>
+            </div>
+
+            <form onsubmit="calculateCatAge(event)">
+                <div class="form-group">
+                    <label for="catYears">बिल्ली की उम्र (वर्षों में)</label>
+                    <input type="number" id="catYears" class="form-control" placeholder="उदा. 2" min="0" max="35">
+                </div>
+
+                <div class="form-group">
+                    <label for="catMonths">बिल्ली की उम्र (महीनों में - वैकल्पिक)</label>
+                    <input type="number" id="catMonths" class="form-control" placeholder="उदा. 6" min="0" max="11">
+                </div>
+
+                <button type="submit" class="btn-submit">गणना करें 🐾</button>
+            </form>
+
+            <div class="result-box" id="resultBox">
+                <div class="result-title">मानव उम्र के बराबर</div>
+                <div class="result-value" id="humanAgeOutput">0 मानव वर्ष</div>
+                <p class="result-desc" id="lifeStageOutput">जीवन का चरण: वयस्क</p>
+            </div>
+        </div>
+
+        <!-- SEO Content & Internal Linking Section -->
+        <section style="max-width: 800px; margin: 0 auto 4rem auto; line-height: 1.8;">
+            <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-main);">बिल्ली की उम्र की गणना कैसे की जाती है?</h2>
+            <p style="margin-bottom: 1rem;">आम धारणा के विपरीत, बिल्ली का 1 वर्ष केवल इंसानों के 7 वर्षों के बराबर नहीं होता है। जीवन के पहले दो वर्षों में बिल्लियों का शारीरिक विकास बहुत तेजी से होता है:</p>
+            
+            <ul style="margin-left: 1.5rem; margin-bottom: 2rem;">
+                <li><strong>पहला वर्ष:</strong> 1 साल की बिल्ली लगभग 15 साल के इंसान के बराबर होती है।</li>
+                <li><strong>दूसरा वर्ष:</strong> 2 साल की उम्र तक, बिल्ली इंसानों के 24 साल के बराबर वयस्क हो जाती है।</li>
+                <li><strong>इसके बाद हर वर्ष:</strong> इसके बाद का प्रत्येक अतिरिक्त वर्ष लगभग 4 मानव वर्षों के बराबर होता है।</li>
+            </ul>
+
+            <!-- Contextual Internal Links Block -->
+            <div style="background-color: var(--bg-alt); padding: 1.5rem; border-radius: var(--radius-md); border-left: 4px solid var(--primary-color);">
+                <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem; color: var(--text-main);">बिल्ली की देखभाल के उपयोगी गाइड:</h3>
+                <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.5rem;">
+                    <li>📌 <a href="../cats/kitten-feeding-guide.html" style="color: var(--primary-color); font-weight: 600; text-decoration: underline;">बिल्ली के बच्चे का आहार गाइड: पोषण योजना</a></li>
+                    <li>📌 <a href="../cats/" style="color: var(--primary-color); font-weight: 600; text-decoration: underline;">बिल्ली की देखभाल और स्वास्थ्य के सभी गाइड पढ़ें</a></li>
+                    <li>📌 <a href="../veterinary-health/" style="color: var(--primary-color); font-weight: 600; text-decoration: underline;">आवश्यक बिल्ली टीकाकरण और बीमारी की रोकथाम</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-disclaimer">
+                <strong>मेडिकल डिस्क्लेमर:</strong> यह टूल केवल शैक्षिक उद्देश्यों के लिए मानक पशु चिकित्सा दिशानिर्देशों (AVMA) का उपयोग करता है।
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 पेट एंड एनिमल केयर वर्ल्ड। सर्वाधिकार सुरक्षित।</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="../../assets/js/language.js"></script>
+    <script src="../../assets/js/navigation.js"></script>
+    <script src="../../assets/js/tools.js"></script>
+    <script src="../../assets/js/app.js"></script>
+</body>
+</html>
