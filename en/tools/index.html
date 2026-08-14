@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Age Calculator: Convert Cat Years to Human Years | Pet & Animal Care World</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Calculate your cat's exact age in human years with our free Cat Age Calculator. Based on AVMA veterinary standards for kitten, adult, and senior cat life stages.">
+    <meta name="keywords" content="cat age calculator, cat years to human years, kitten age chart, cat life stages, veterinary age converter">
+    <link rel="canonical" href="https://petandanimalcareworld.com/en/tools/" />
+
+    <!-- Hreflang SEO Tags -->
+    <link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/tools/" />
+    <link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/tools/" />
+    <link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/tools/" />
+    <link rel="alternate" hreflang="x-default" href="https://petandanimalcareworld.com/en/tools/" />
+
+    <!-- Structured Data (JSON-LD) for Google Search Engine -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Cat Age Calculator",
+      "url": "https://petandanimalcareworld.com/en/tools/",
+      "description": "Interactive tool to convert cat years into equivalent human age based on veterinary growth standards.",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../../assets/css/variables.css">
+    <link rel="stylesheet" href="../../assets/css/global.css">
+    <link rel="stylesheet" href="../../assets/css/header.css">
+    <link rel="stylesheet" href="../../assets/css/footer.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+    <link rel="stylesheet" href="../../assets/css/tools.css">
+</head>
+<body>
+
+    <!-- Header Navigation Section -->
+    <header class="site-header">
+        <div class="container header-inner">
+            
+            <!-- Brand Logo -->
+            <a href="../" class="brand-logo">
+                🐾 Pet Care <span>World</span>
+            </a>
+
+            <!-- Mobile Hamburger Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">
+                ☰
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="../" class="nav-link">Home</a></li>
+                    <li><a href="../cats/" class="nav-link">Cats</a></li>
+                    <li><a href="../dogs/" class="nav-link">Dogs</a></li>
+                    <li><a href="../birds-small-pets/" class="nav-link">Birds & Small Pets</a></li>
+                    <li><a href="../veterinary-health/" class="nav-link">Veterinary Health</a></li>
+                    <li><a href="../nutrition/" class="nav-link">Nutrition</a></li>
+                    <li><a href="../grooming/" class="nav-link">Grooming</a></li>
+                    <li><a href="./" class="nav-link active">Tools</a></li>
+                </ul>
+            </nav>
+
+            <!-- Language Switcher Utility -->
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn" id="langBtn" onclick="toggleLangDropdown()">
+                        🌐 <span>English</span> ▾
+                    </button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <a href="../../en/tools/" class="lang-option" onclick="selectLang('en')">🇺🇸 English</a>
+                        <a href="../../bn/tools/" class="lang-option" onclick="selectLang('bn')">🇧🇩 বাংলা</a>
+                        <a href="../../hi/tools/" class="lang-option" onclick="selectLang('hi')">🇮🇳 हिन्दी</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container">
+        
+        <!-- Interactive Calculator Tool -->
+        <div class="tool-card">
+            <div class="tool-header">
+                <h1>🐱 Cat Age Calculator</h1>
+                <p>Convert your cat's age into human years using standard veterinary growth guidelines.</p>
+            </div>
+
+            <form onsubmit="calculateCatAge(event)">
+                <div class="form-group">
+                    <label for="catYears">Cat's Age in Years</label>
+                    <input type="number" id="catYears" class="form-control" placeholder="e.g. 2" min="0" max="35">
+                </div>
+
+                <div class="form-group">
+                    <label for="catMonths">Cat's Age in Months (Optional)</label>
+                    <input type="number" id="catMonths" class="form-control" placeholder="e.g. 6" min="0" max="11">
+                </div>
+
+                <button type="submit" class="btn-submit">Calculate Human Age 🐾</button>
+            </form>
+
+            <div class="result-box" id="resultBox">
+                <div class="result-title">Equivalent Human Age</div>
+                <div class="result-value" id="humanAgeOutput">0 Human Years</div>
+                <p class="result-desc" id="lifeStageOutput">Life Stage: Adult</p>
+            </div>
+        </div>
+
+        <!-- SEO Content & Internal Linking Section -->
+        <section style="max-width: 800px; margin: 0 auto 4rem auto; line-height: 1.8;">
+            <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-main);">How Are Cat Years Calculated?</h2>
+            <p style="margin-bottom: 1rem;">Contrary to popular belief, 1 cat year is not simply equal to 7 human years. Feline development happens rapidly in the first two years of life:</p>
+            
+            <ul style="margin-left: 1.5rem; margin-bottom: 2rem;">
+                <li><strong>First Year:</strong> A 1-year-old cat is roughly equal to a 15-year-old human.</li>
+                <li><strong>Second Year:</strong> By age 2, a cat reaches human adulthood, equivalent to about 24 years old.</li>
+                <li><strong>Each Year After:</strong> Every additional year equals approximately 4 human years.</li>
+            </ul>
+
+            <!-- Internal Links Block -->
+            <div style="background-color: var(--bg-alt); padding: 1.5rem; border-radius: var(--radius-md); border-left: 4px solid var(--primary-color);">
+                <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem; color: var(--text-main);">Recommended Cat Care Guides:</h3>
+                <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.5rem;">
+                    <li>📌 <a href="../cats/kitten-feeding-guide.html" style="color: var(--primary-color); font-weight: 600; text-decoration: underline;">Complete Kitten Feeding Guide: Week-by-Week Nutrition</a></li>
+                    <li>📌 <a href="../cats/" style="color: var(--primary-color); font-weight: 600; text-decoration: underline;">Explore All Cat Care & Health Guides</a></li>
+                    <li>📌 <a href="../veterinary-health/" style="color: var(--primary-color); font-weight: 600; text-decoration: underline;">Essential Cat Vaccination & Disease Prevention</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-disclaimer">
+                <strong>Medical Disclaimer:</strong> This tool uses standard veterinary age-conversion guidelines (AVMA) for educational purposes.
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pet & Animal Care World. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="../../assets/js/language.js"></script>
+    <script src="../../assets/js/navigation.js"></script>
+    <script src="../../assets/js/tools.js"></script>
+    <script src="../../assets/js/app.js"></script>
+</body>
+</html>

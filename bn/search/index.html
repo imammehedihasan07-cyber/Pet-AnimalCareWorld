@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>অনুসন্ধানের ফলাফল | পেট অ্যান্ড অ্যানিমেল কেয়ার ওয়ার্ল্ড</title>
+    <link rel="canonical" href="https://petandanimalcareworld.com/bn/search/" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../assets/css/variables.css">
+    <link rel="stylesheet" href="../../assets/css/global.css">
+    <link rel="stylesheet" href="../../assets/css/header.css">
+    <link rel="stylesheet" href="../../assets/css/footer.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+    <link rel="stylesheet" href="../../assets/css/hero.css">
+
+    <style>
+        body { font-family: 'Hind Siliguri', var(--font-primary); }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="../" class="brand-logo">🐾 Pet Care <span>World</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">☰</button>
+
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="../" class="nav-link">হোম</a></li>
+                    <li><a href="../cats/" class="nav-link">বিড়াল</a></li>
+                    <li><a href="../dogs/" class="nav-link">কুকুর</a></li>
+                    <li><a href="../birds-small-pets/" class="nav-link">পাখি ও ছোট প্রাণী</a></li>
+                    <li><a href="../veterinary-health/" class="nav-link">ভেটেরিনারি স্বাস্থ্য</a></li>
+                    <li><a href="../nutrition/" class="nav-link">পুষ্টি</a></li>
+                    <li><a href="../grooming/" class="nav-link">গ্রুমিং</a></li>
+                    <li><a href="../tools/" class="nav-link">টুলস</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-section" style="margin-top: 2rem;">
+            <h1 class="hero-title">🔍 অনুসন্ধানের ফলাফল</h1>
+            <p class="hero-subtitle" id="searchQueryText">আপনার বিষয় সম্পর্কিত পোস্টসমূহ দেখানো হচ্ছে...</p>
+        </section>
+
+        <section style="margin-bottom: 4rem;">
+            <h2 class="section-title">সম্পর্কিত গাইড ও টুলস</h2>
+            <div class="category-grid">
+                <a href="../cats/kitten-feeding-guide.html" class="category-card">
+                    <span class="card-icon">🍼</span>
+                    <h3 class="card-title">বিড়ালছানার খাদ্য নির্দেশিকা</h3>
+                    <p class="card-desc">সপ্তাহভিত্তিক বিড়ালছানার খাদ্য পরিকল্পনা।</p>
+                </a>
+                <a href="../tools/" class="category-card">
+                    <span class="card-icon">🐱</span>
+                    <h3 class="card-title">ক্যাট এজ ক্যালকুলেটর</h3>
+                    <p class="card-desc">বিড়ালের বয়স মানুষের বয়সে রূপান্তর করুন।</p>
+                </a>
+                <a href="../tools/dog-age-calculator.html" class="category-card">
+                    <span class="card-icon">🐕</span>
+                    <h3 class="card-title">ডগ এজ ক্যালকুলেটর</h3>
+                    <p class="card-desc">কুকুরের বয়স মানুষের বয়সে হিসাব করুন।</p>
+                </a>
+                <a href="../veterinary-health/" class="category-card">
+                    <span class="card-icon">🩺</span>
+                    <h3 class="card-title">ভ্যাকসিনেশন নির্দেশিকা</h3>
+                    <p class="card-desc">কুকুর ও বিড়ালের ভ্যাকসিনের সঠিক নিয়ম।</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; ২০২৬ পেট অ্যান্ড অ্যানিমেল কেয়ার ওয়ার্ল্ড। সর্বস্বত্ব সংরক্ষিত।</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../assets/js/navigation.js"></script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('q');
+        if (query) {
+            document.getElementById('searchQueryText').innerText = 'অনুসন্ধানের বিষয়: "' + query + '"';
+        }
+    </script>
+</body>
+</html>

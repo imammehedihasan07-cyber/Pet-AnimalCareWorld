@@ -1,0 +1,79 @@
+/* ==========================================================================
+   Pet & Animal Care World - Mobile Responsive & Navigation Styling
+   ========================================================================== */
+
+/* Hamburger Button Styling (Hidden on Desktop) */
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--text-main);
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+/* Tablet & Mobile Breakpoint (Under 992px) */
+@media (max-width: 992px) {
+  
+  .mobile-menu-btn {
+    display: block; /* Show Hamburger Button on Mobile */
+  }
+
+  /* Transform Horizontal Menu into Vertical Drawer */
+  .main-nav {
+    position: fixed;
+    top: var(--header-height);
+    left: -100%; /* Hidden off-screen by default */
+    width: 280px;
+    height: calc(100vh - var(--header-height));
+    background-color: var(--bg-surface);
+    box-shadow: var(--shadow-lg);
+    transition: left 0.3s ease-in-out;
+    padding: 2rem 1.5rem;
+    overflow-y: auto;
+    z-index: 999;
+  }
+
+  .main-nav.active {
+    left: 0; /* Slide in from left when active */
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+    width: 100%;
+    display: block;
+  }
+
+  /* Hero adjustments for smaller screens */
+  .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-search {
+    flex-direction: column;
+    border-radius: var(--radius-md);
+    padding: 0.75rem;
+  }
+
+  .hero-search input, 
+  .hero-search button {
+    width: 100%;
+    border-radius: var(--radius-sm);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}

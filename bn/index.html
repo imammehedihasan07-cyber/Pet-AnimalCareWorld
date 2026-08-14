@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>পেট অ্যান্ড অ্যানিমেল কেয়ার ওয়ার্ল্ড — পোষা প্রাণীর সম্পূর্ণ যত্ন ও ভেটেরিনারি পরামর্শ</title>
+    
+    <meta name="description" content="পেট কেয়ার ওয়ার্ল্ড-এ নির্ভরযোগ্য পোষা প্রাণীর যত্ন গাইড, কুকুর ও বিড়ালের স্বাস্থ্য, পুষ্টি পরিকল্পনা এবং ইন্টারঅ্যাকটিভ টুলস খুঁজুন।">
+    <link rel="canonical" href="https://petandanimalcareworld.com/bn/">
+
+    <!-- Hreflang SEO Tags -->
+    <link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/" />
+    <link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/" />
+    <link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/" />
+    <link rel="alternate" hreflang="x-default" href="https://petandanimalcareworld.com/en/" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/variables.css">
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/hero.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="./index.html" class="brand-logo">
+                🐾 Pet Care <span>World</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">
+                ☰
+            </button>
+
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="./index.html" class="nav-link active">হোম</a></li>
+                    <li><a href="./cats/index.html" class="nav-link">বিড়াল</a></li>
+                    <li><a href="./dogs/index.html" class="nav-link">কুকুর</a></li>
+                    <li><a href="./birds-small-pets/index.html" class="nav-link">পাখি ও ছোট প্রাণী</a></li>
+                    <li><a href="./veterinary-health/index.html" class="nav-link">ভেটেরিনারি স্বাস্থ্য</a></li>
+                    <li><a href="./nutrition/index.html" class="nav-link">পুষ্টি</a></li>
+                    <li><a href="./grooming/index.html" class="nav-link">গ্রুমিং</a></li>
+                    <li><a href="./tools/index.html" class="nav-link">টুলস</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn" id="langBtn" onclick="toggleLangDropdown()">
+                        🌐 <span>বাংলা</span> ▾
+                    </button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <a href="../en/index.html" class="lang-option">English</a>
+                        <a href="../bn/index.html" class="lang-option">বাংলা</a>
+                        <a href="../hi/index.html" class="lang-option">हिन्दी</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container">
+        <!-- Hero Section with Smart Instant Search -->
+        <section class="hero-section" style="margin-top: 2rem;">
+            <h1 class="hero-title">আপনার পোষা প্রাণীর জন্য আরও ভালো যত্ন 🐾</h1>
+            <p class="hero-subtitle">নির্ভরযোগ্য পোষা প্রাণীর যত্ন গাইড, পুষ্টি সম্পর্কিত তথ্য, ব্যবহারিক পরামর্শ এবং ইন্টারঅ্যাকটিভ টুলস।</p>
+
+            <div class="hero-search-wrapper">
+                <div class="hero-search-input-box">
+                    <input type="text" id="heroSearchInput" placeholder="পেট কেয়ার গাইড, স্বাস্থ্য সম্পর্কিত বিষয় এবং টুলস খুঁজুন..." autocomplete="off" spellcheck="false">
+                </div>
+                <div id="heroSearchResults" class="hero-search-results-box"></div>
+            </div>
+        </section>
+
+        <!-- 1. Pure Categories Section -->
+        <section style="margin-bottom: 4rem;">
+            <h2 class="section-title">পশুপাখির যত্ন ও ক্যাটাগরি</h2>
+            <div class="category-grid">
+                <a href="./cats/index.html" class="category-card">
+                    <span class="card-icon">🐱</span>
+                    <h3 class="card-title">বিড়ালের যত্ন</h3>
+                    <p class="card-desc">বিড়ালছানার যত্ন, খাদ্যাভ্যাস, আচরণ এবং স্বাস্থ্য সচেতনতা গাইড।</p>
+                </a>
+                <a href="./dogs/index.html" class="category-card">
+                    <span class="card-icon">🐶</span>
+                    <h3 class="card-title">কুকুরের যত্ন</h3>
+                    <p class="card-desc">কুকুরছানার প্রশিক্ষণ, পুষ্টি, নির্দিষ্ট জাতের যত্ন এবং ব্যায়াম।</p>
+                </a>
+                <a href="./birds-small-pets/index.html" class="category-card">
+                    <span class="card-icon">🦜</span>
+                    <h3 class="card-title">পাখি ও ছোট প্রাণী</h3>
+                    <p class="card-desc">বাজরিগার, টিয়া, খরগোশ এবং অন্যান্য ছোট প্রাণীর যত্নের বিস্তারিত গাইড।</p>
+                </a>
+                <a href="./veterinary-health/index.html" class="category-card">
+                    <span class="card-icon">🩺</span>
+                    <h3 class="card-title">ভেটেরিনারি স্বাস্থ্য</h3>
+                    <p class="card-desc">রোগের লক্ষণ শনাক্তকরণ, প্রাথমিক চিকিৎসা এবং কখন ভেট দেখাতে হবে তা জানুন।</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- 2. Featured Guides -->
+        <section style="margin-bottom: 4rem;">
+            <h2 class="section-title">জনপ্রিয় গাইডসমূহ</h2>
+            <div class="category-grid">
+                <a href="./cats/kitten-feeding-guide.html" class="category-card">
+                    <span class="card-icon">🍼</span>
+                    <h3 class="card-title">বিড়ালছানার খাদ্যাভ্যাস গাইড</h3>
+                    <p class="card-desc">বিড়ালছানাকে কী খাওয়াবেন, সময়সূচী এবং প্রাপ্তবয়স্ক খাবারে পরিবর্তনের নিয়ম।</p>
+                </a>
+                <a href="./dogs/puppy-training-guide.html" class="category-card">
+                    <span class="card-icon">🦴</span>
+                    <h3 class="card-title">কুকুরছানার প্রাথমিক প্রশিক্ষণ</h3>
+                    <p class="card-desc">পটি ট্রেনিং, সামাজিকীকরণ এবং বেসিক কমান্ড শেখানোর প্রয়োজনীয় প্রাথমিক ধাপ।</p>
+                </a>
+                <a href="./birds-small-pets/budgie-care-guide.html" class="category-card">
+                    <span class="card-icon">🐦</span>
+                    <h3 class="card-title">বাজরিগার পাখির সম্পূর্ণ যত্ন</h3>
+                    <p class="card-desc">খাদ্যাভ্যাস, খাঁচার পরিবেশ এবং বাজরিগারের স্বাস্থ্য সম্পর্কে আপনার যা জানা প্রয়োজন।</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- 3. Pet Care Tools -->
+        <section style="margin-bottom: 4rem;">
+            <h2 class="section-title">ইন্টারঅ্যাকটিভ টুলস</h2>
+            <div class="category-grid">
+                <a href="./tools/dog-age-calculator.html" class="category-card">
+                    <span class="card-icon">🐕</span>
+                    <h3 class="card-title">ডগ এজ ক্যালকুলেটর</h3>
+                    <p class="card-desc">কুকুরের প্রজাতি ও আকারের ওপর ভিত্তি করে মানুষের বয়সে কুকুরের বয়স হিসাব করুন।</p>
+                </a>
+                <a href="./tools/index.html" class="category-card">
+                    <span class="card-icon">🧮</span>
+                    <h3 class="card-title">সকল টুলস দেখুন</h3>
+                    <p class="card-desc">আপনার পোষা প্রাণীর জন্য আরও ইন্টারঅ্যাকটিভ ক্যালকুলেটর এবং হেলথ ট্র্যাকিং টুলস খুঁজুন।</p>
+                </a>
+            </div>
+        </section>
+        
+        <!-- 4. Trust / About Section -->
+        <section style="margin-bottom: 4rem; text-align: center; max-width: 800px; margin-left: auto; margin-right: auto;">
+            <h2 class="section-title">কেন পেট কেয়ার ওয়ার্ল্ড-এর ওপর আস্থা রাখবেন?</h2>
+            <p style="color: var(--text-color, #4b5563); line-height: 1.6; margin-bottom: 1rem;">
+                আমাদের লক্ষ্য হলো পোষা প্রাণীর মালিকদের সঠিক ও ব্যবহারিক গাইডলাইন প্রদান করা। ভেটেরিনারি ফিল্ডের চিকিৎসা অভিজ্ঞতা এবং বিশ্বস্ত গবেষণার সমন্বয়ে আমরা আপনার পোষা প্রাণীর সুস্থ ও সুন্দর জীবন নিশ্চিত করতে সাহায্য করি।
+            </p>
+            <a href="./about/index.html" style="color: var(--primary-color, #2563eb); font-weight: 600; text-decoration: none;">আমাদের এডিটোরিয়াল প্রসেস সম্পর্কে জানুন →</a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" style="background-color: #111827; color: #e5e7eb; padding: 4rem 0 2rem 0; margin-top: 4rem;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+                <div>
+                    <h4 style="color: #fff; margin-bottom: 1rem;">অন্বেষণ করুন</h4>
+                    <ul style="list-style: none; padding: 0; line-height: 2;">
+                        <li><a href="./cats/index.html" style="color: #9ca3af; text-decoration: none;">বিড়ালের যত্ন</a></li>
+                        <li><a href="./dogs/index.html" style="color: #9ca3af; text-decoration: none;">কুকুরের যত্ন</a></li>
+                        <li><a href="./birds-small-pets/index.html" style="color: #9ca3af; text-decoration: none;">পাখি ও ছোট প্রাণী</a></li>
+                        <li><a href="./tools/index.html" style="color: #9ca3af; text-decoration: none;">টুলস</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: #fff; margin-bottom: 1rem;">স্বাস্থ্য ও সুস্থতা</h4>
+                    <ul style="list-style: none; padding: 0; line-height: 2;">
+                        <li><a href="./veterinary-health/index.html" style="color: #9ca3af; text-decoration: none;">ভেটেরিনারি স্বাস্থ্য</a></li>
+                        <li><a href="./nutrition/index.html" style="color: #9ca3af; text-decoration: none;">পুষ্টি গাইড</a></li>
+                        <li><a href="./grooming/index.html" style="color: #9ca3af; text-decoration: none;">গ্রুমিং গাইড</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: #fff; margin-bottom: 1rem;">কোম্পানি</h4>
+                    <ul style="list-style: none; padding: 0; line-height: 2;">
+                        <li><a href="./about/index.html" style="color: #9ca3af; text-decoration: none;">আমাদের সম্পর্কে</a></li>
+                        <li><a href="./contact/index.html" style="color: #9ca3af; text-decoration: none;">যোগাযোগ</a></li>
+                        <li><a href="./editorial-policy/index.html" style="color: #9ca3af; text-decoration: none;">এডিটোরিয়াল পলিসি</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: #fff; margin-bottom: 1rem;">লিগ্যাল</h4>
+                    <ul style="list-style: none; padding: 0; line-height: 2;">
+                        <li><a href="./privacy-policy/index.html" style="color: #9ca3af; text-decoration: none;">প্রাইভেসি পলিসি</a></li>
+                        <li><a href="./terms/index.html" style="color: #9ca3af; text-decoration: none;">টার্মস অফ ইউজ</a></li>
+                        <li><a href="./cookie-policy/index.html" style="color: #9ca3af; text-decoration: none;">কুকি পলিসি</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-disclaimer" style="padding: 1.5rem; background: rgba(255, 255, 255, 0.05); border-left: 4px solid #f59e0b; margin-bottom: 2rem; border-radius: 4px; font-size: 0.9rem;">
+                <strong style="color: #f59e0b;">ভেটেরিনারি সতর্কবার্তা:</strong> পেট কেয়ার ওয়ার্ল্ড-এর তথ্য শুধুমাত্র সাধারণ শিক্ষামূলক উদ্দেশ্যে প্রদান করা হয়েছে এবং এটি পেশাদার ভেটেরিনারি রোগ নির্ণয়, চিকিৎসা বা পরামর্শের বিকল্প নয়। আপনার পোষা প্রাণীর গুরুতর অসুস্থতা, আঘাত বা জরুরি পরিস্থিতিতে অবিলম্বে একজন যোগ্য ভেটেরিনারি চিকিৎসকের সাথে যোগাযোগ করুন। বিস্তারিত জানতে আমাদের <a href="./medical-disclaimer/index.html" style="color: #60a5fa;">মেডিকেল ডিসক্লেইমার</a> পড়ুন।
+            </div>
+            
+            <div class="footer-bottom" style="border-top: 1px solid #374151; padding-top: 2rem; text-align: center; color: #9ca3af; font-size: 0.875rem;">
+                <p>&copy; 2026 Pet & Animal Care World. সর্বস্বত্ব সংরক্ষিত।</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/language.js"></script>
+    <script src="../assets/js/navigation.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/search-index.js"></script>
+    <script src="../assets/js/hero-search.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            initHeroSearch('heroSearchInput', 'heroSearchResults', 'bn');
+        });
+    </script>
+</body>
+</html>

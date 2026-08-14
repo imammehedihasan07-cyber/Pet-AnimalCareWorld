@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Disallow specific non-content assets if needed
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /docs/
+
+# Sitemap location
+Sitemap: https://petandanimalcareworld.com/sitemap.xml

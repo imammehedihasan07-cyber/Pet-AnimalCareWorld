@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>যোগাযোগ | পেট অ্যান্ড অ্যানিমেল কেয়ার ওয়ার্ল্ড</title>
+
+    <meta name="description" content="পেট অ্যান্ড অ্যানিমেল কেয়ার ওয়ার্ল্ড টিমের সাথে যেকোনো জিজ্ঞাসা বা মতামত জানাতে যোগাযোগ করুন।">
+    <link rel="canonical" href="https://petandanimalcareworld.com/bn/contact/" />
+
+    <link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/contact/" />
+    <link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/contact/" />
+    <link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/contact/" />
+    <link rel="alternate" hreflang="x-default" href="https://petandanimalcareworld.com/en/contact/" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../assets/css/variables.css">
+    <link rel="stylesheet" href="../../assets/css/global.css">
+    <link rel="stylesheet" href="../../assets/css/header.css">
+    <link rel="stylesheet" href="../../assets/css/footer.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+    <link rel="stylesheet" href="../../assets/css/tools.css">
+
+    <style>
+        body { font-family: 'Hind Siliguri', var(--font-primary); }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="../" class="brand-logo">🐾 Pet Care <span>World</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">☰</button>
+
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="../" class="nav-link">হোম</a></li>
+                    <li><a href="../cats/" class="nav-link">বিড়াল</a></li>
+                    <li><a href="../dogs/" class="nav-link">কুকুর</a></li>
+                    <li><a href="../birds-small-pets/" class="nav-link">পাখি ও ছোট প্রাণী</a></li>
+                    <li><a href="../veterinary-health/" class="nav-link">ভেটেরিনারি স্বাস্থ্য</a></li>
+                    <li><a href="../nutrition/" class="nav-link">পুষ্টি</a></li>
+                    <li><a href="../grooming/" class="nav-link">গ্রুমিং</a></li>
+                    <li><a href="../tools/" class="nav-link">টুলস</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn" id="langBtn" onclick="toggleLangDropdown()">🌐 <span>বাংলা</span> ▾</button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <a href="../../en/contact/" class="lang-option" onclick="selectLang('en')">🇺🇸 English</a>
+                        <a href="../../bn/contact/" class="lang-option" onclick="selectLang('bn')">🇧🇩 বাংলা</a>
+                        <a href="../../hi/contact/" class="lang-option" onclick="selectLang('hi')">🇮🇳 हिन्दी</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="tool-card">
+            <div class="tool-header">
+                <h1>📬 যোগাযোগ করুন</h1>
+                <p>আমাদের ওয়েবসাইট সম্পর্কিত কোনো প্রশ্ন, পরামর্শ বা মতামত থাকলে মেসেজ পাঠান।</p>
+            </div>
+
+            <form onsubmit="alert('আপনার বার্তার জন্য ধন্যবাদ! আমরা শীঘ্রই যোগাযোগ করব।'); return false;">
+                <div class="form-group">
+                    <label for="fullName">আপনার পুরো নাম</label>
+                    <input type="text" id="fullName" class="form-control" placeholder="যেমন: মো. রহিম" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="emailAddress">ইমেইল ঠিকানা</label>
+                    <input type="email" id="emailAddress" class="form-control" placeholder="যেমন: name@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="messageSubject">বিষয় (Subject)</label>
+                    <input type="text" id="messageSubject" class="form-control" placeholder="যেমন: সাইট সংক্রান্ত মতামত" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="userMessage">আপনার বার্তা</label>
+                    <textarea id="userMessage" class="form-control" rows="5" placeholder="আপনার বার্তাটি বিস্তারিত লিখুন..." style="resize: vertical;" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">বার্তা পাঠান ✉️</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-disclaimer">
+                <strong>মেডিকেল ডিসক্লেইমার:</strong> জরুরি স্বাস্থ্য বা চিকিৎসার জন্য এই কন্টাক্ট ফর্ম ব্যবহার করবেন না। অনতিবিলম্বে ডাক্তারের সাথে যোগাযোগ করুন।
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; ২০২৬ পেট অ্যান্ড অ্যানিমেল কেয়ার ওয়ার্ল্ড। সর্বস্বত্ব সংরক্ষিত।</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../assets/js/language.js"></script>
+    <script src="../../assets/js/navigation.js"></script>
+    <script src="../../assets/js/app.js"></script>
+</body>
+</html>

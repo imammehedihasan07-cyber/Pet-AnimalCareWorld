@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Pet & Animal Care World - CSS Variables (Theme Architecture)
+   ========================================================================== */
+
+:root {
+  /* Brand Primary Colors */
+  --primary-color: #0d9488;        /* Deep Teal / Green (Trust & Nature) */
+  --primary-hover: #0f766e;        /* Darker Teal for Hover States */
+  --primary-light: #ccfbf1;        /* Soft Mint Background */
+
+  /* Secondary & Accent Colors */
+  --accent-color: #f97316;         /* Warm Orange (Friendly & Playful) */
+  --accent-hover: #ea580c;         /* Dark Orange Hover */
+  --accent-light: #ffedd5;         /* Soft Orange Background */
+
+  /* Neutral & Base Colors */
+  --bg-main: #f8fafc;              /* Off-White Clean Background */
+  --bg-surface: #ffffff;           /* Card & Container White */
+  --bg-alt: #f1f5f9;               /* Light Gray Section Alt */
+
+  /* Text Colors */
+  --text-main: #0f172a;            /* Dark Slate for High Contrast Headings */
+  --text-muted: #475569;           /* Soft Gray for Body Text */
+  --text-light: #94a3b8;           /* Muted Text for Dates / Icons */
+
+  /* Status Colors */
+  --success: #22c55e;
+  --warning: #eab308;
+  --danger: #ef4444;
+
+  /* Typography Fonts */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Plus Jakarta Sans', var(--font-primary);
+
+  /* Elevation & Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  /* Border Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Layout Spacing */
+  --container-max: 1200px;
+  --header-height: 72px;
+}

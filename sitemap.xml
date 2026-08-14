@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ================= Homepage ================= -->
+  <url>
+    <loc>https://petandanimalcareworld.com/en/</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://petandanimalcareworld.com/en/" />
+  </url>
+
+  <!-- ================= Phase 4 Core Articles ================= -->
+  <url>
+    <loc>https://petandanimalcareworld.com/en/cats/kitten-feeding-guide.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/cats/kitten-feeding-guide.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/cats/kitten-feeding-guide.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/cats/kitten-feeding-guide.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/dogs/puppy-training-guide.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/dogs/puppy-training-guide.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/dogs/puppy-training-guide.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/dogs/puppy-training-guide.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/birds-small-pets/budgie-care-guide.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/birds-small-pets/budgie-care-guide.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/birds-small-pets/budgie-care-guide.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/birds-small-pets/budgie-care-guide.html" />
+  </url>
+
+  <!-- ================= Veterinary Health & Livestock Articles ================= -->
+  <url>
+    <loc>https://petandanimalcareworld.com/en/veterinary-health/pet-vaccination-guide.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/veterinary-health/pet-vaccination-guide.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/veterinary-health/pet-vaccination-guide.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/veterinary-health/pet-vaccination-guide.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/veterinary-health/heat-stroke-guide.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/veterinary-health/heat-stroke-guide.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/veterinary-health/heat-stroke-guide.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/veterinary-health/heat-stroke-guide.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/cats/pregnant-cat-care.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/cats/pregnant-cat-care.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/cats/pregnant-cat-care.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/cats/pregnant-cat-care.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/veterinary-health/cow-cattle-health-guide.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/veterinary-health/cow-cattle-health-guide.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/veterinary-health/cow-cattle-health-guide.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/veterinary-health/cow-cattle-health-guide.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/veterinary-health/goat-care-guide.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/veterinary-health/goat-care-guide.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/veterinary-health/goat-care-guide.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/veterinary-health/goat-care-guide.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/veterinary-health/horse-care-guide.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/veterinary-health/horse-care-guide.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/veterinary-health/horse-care-guide.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/veterinary-health/horse-care-guide.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/dogs/dog-skin-coat-care.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/dogs/dog-skin-coat-care.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/dogs/dog-skin-coat-care.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/dogs/dog-skin-coat-care.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/dogs/food-safety-guide.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/dogs/food-safety-guide.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/dogs/food-safety-guide.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/dogs/food-safety-guide.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/cats/cat-vomiting-guide.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/cats/cat-vomiting-guide.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/cats/cat-vomiting-guide.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/cats/cat-vomiting-guide.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/cats/litter-box-training.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/cats/litter-box-training.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/cats/litter-box-training.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/cats/litter-box-training.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/birds-small-pets/rabbit-care-guide.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/birds-small-pets/rabbit-care-guide.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/birds-small-pets/rabbit-care-guide.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/birds-small-pets/rabbit-care-guide.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/birds-small-pets/talking-bird-training-guide.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/birds-small-pets/talking-bird-training-guide.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/birds-small-pets/talking-bird-training-guide.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/birds-small-pets/talking-bird-training-guide.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/veterinary-health/pregnant-cow-care-guide.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/veterinary-health/pregnant-cow-care-guide.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/veterinary-health/pregnant-cow-care-guide.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/veterinary-health/pregnant-cow-care-guide.html" />
+  </url>
+
+  <url>
+    <loc>https://petandanimalcareworld.com/en/veterinary-health/goat-diarrhea-treatment.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/veterinary-health/goat-diarrhea-treatment.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/veterinary-health/goat-diarrhea-treatment.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/veterinary-health/goat-diarrhea-treatment.html" />
+  </url>
+
+  <!-- ================= Tools ================= -->
+  <url>
+    <loc>https://petandanimalcareworld.com/en/tools/dog-age-calculator.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/tools/dog-age-calculator.html" />
+    <xhtml:link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/tools/dog-age-calculator.html" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/tools/dog-age-calculator.html" />
+  </url>
+
+  <!-- ================= Legal & Trust Pages ================= -->
+  <url>
+    <loc>https://petandanimalcareworld.com/en/about/</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://petandanimalcareworld.com/en/privacy-policy/</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://petandanimalcareworld.com/en/medical-disclaimer/</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://petandanimalcareworld.com/en/terms/</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+</urlset>

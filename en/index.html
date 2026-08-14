@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet & Animal Care World — Complete Pet Care & Veterinary Advice</title>
+    
+    <!-- Meta Descriptions & Canonical -->
+    <meta name="description" content="Explore evidence-informed pet care guides, dog and cat health, nutrition plans, and interactive pet health tools at Pet Care World.">
+    <link rel="canonical" href="https://petandanimalcareworld.com/en/">
+
+    <!-- Open Graph / Facebook / WhatsApp Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://petandanimalcareworld.com/en/">
+    <meta property="og:title" content="Pet & Animal Care World — Trusted Pet Care Guides & Veterinary Health">
+    <meta property="og:description" content="Explore evidence-informed pet care guides, dog and cat health, nutrition plans, and interactive pet health tools.">
+    <meta property="og:image" content="https://petandanimalcareworld.com/assets/icons/icon-512.png">
+
+    <!-- Twitter / X Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://petandanimalcareworld.com/en/">
+    <meta name="twitter:title" content="Pet & Animal Care World — Trusted Pet Care Guides">
+    <meta name="twitter:description" content="Explore evidence-informed pet care guides, dog and cat health, nutrition plans, and interactive pet health tools.">
+    <meta name="twitter:image" content="https://petandanimalcareworld.com/assets/icons/icon-512.png">
+
+    <!-- Hreflang SEO Tags -->
+    <link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/" />
+    <link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/" />
+    <link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/" />
+    <link rel="alternate" hreflang="x-default" href="https://petandanimalcareworld.com/en/" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/variables.css">
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/hero.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="./index.html" class="brand-logo">
+                🐾 Pet Care <span>World</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">
+                ☰
+            </button>
+
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="./index.html" class="nav-link active">Home</a></li>
+                    <li><a href="./cats/index.html" class="nav-link">Cats</a></li>
+                    <li><a href="./dogs/index.html" class="nav-link">Dogs</a></li>
+                    <li><a href="./birds-small-pets/index.html" class="nav-link">Birds & Small Pets</a></li>
+                    <li><a href="./veterinary-health/index.html" class="nav-link">Veterinary Health</a></li>
+                    <li><a href="./nutrition/index.html" class="nav-link">Nutrition</a></li>
+                    <li><a href="./grooming/index.html" class="nav-link">Grooming</a></li>
+                    <li><a href="./tools/index.html" class="nav-link">Tools</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn" id="langBtn" onclick="toggleLangDropdown()">
+                        🌐 <span>English</span> ▾
+                    </button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <a href="../en/index.html" class="lang-option">English</a>
+                        <a href="../bn/index.html" class="lang-option">বাংলা</a>
+                        <a href="../hi/index.html" class="lang-option">हिन्दी</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container">
+        <!-- Hero Section with Smart Instant Search -->
+        <section class="hero-section" style="margin-top: 2rem;">
+            <h1 class="hero-title">Better Care for Happier Pets 🐾</h1>
+            <!-- Updated wording for E-E-A-T / Safety -->
+            <p class="hero-subtitle">Evidence-informed pet care guides, nutrition information, practical advice, and interactive pet care tools.</p>
+
+            <div class="hero-search-wrapper">
+                <div class="hero-search-input-box">
+                    <!-- Broadened search placeholder -->
+                    <input type="text" id="heroSearchInput" placeholder="Search pet care guides, health topics, and tools..." autocomplete="off" spellcheck="false">
+                </div>
+                <div id="heroSearchResults" class="hero-search-results-box"></div>
+            </div>
+        </section>
+
+        <!-- 1. Pure Categories Section (No Tools Mixed In) -->
+        <section style="margin-bottom: 4rem;">
+            <h2 class="section-title">Explore Pet Care Categories</h2>
+            <div class="category-grid">
+                <a href="./cats/index.html" class="category-card">
+                    <span class="card-icon">🐱</span>
+                    <h3 class="card-title">Cat Care</h3>
+                    <p class="card-desc">Kitten care, feeding schedules, behavior, and feline wellness guides.</p>
+                </a>
+                <a href="./dogs/index.html" class="category-card">
+                    <span class="card-icon">🐶</span>
+                    <h3 class="card-title">Dog Care</h3>
+                    <p class="card-desc">Puppy training, canine nutrition, breed-specific care, and exercises.</p>
+                </a>
+                <a href="./birds-small-pets/index.html" class="category-card">
+                    <span class="card-icon">🦜</span>
+                    <h3 class="card-title">Birds & Small Pets</h3>
+                    <p class="card-desc">Care guides for budgies, parrots, rabbits, and other small companion pets.</p>
+                </a>
+                <a href="./veterinary-health/index.html" class="category-card">
+                    <span class="card-icon">🩺</span>
+                    <h3 class="card-title">Veterinary Health</h3>
+                    <p class="card-desc">Recognize symptoms, first aid basics, and know when to see a veterinarian.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- 2. Featured Guides (Internal linking to the 3 actual articles) -->
+        <section style="margin-bottom: 4rem;">
+            <h2 class="section-title">Featured Pet Care Guides</h2>
+            <div class="category-grid">
+                <a href="./cats/kitten-feeding-guide.html" class="category-card">
+                    <span class="card-icon">🍼</span>
+                    <h3 class="card-title">Complete Kitten Feeding Guide</h3>
+                    <p class="card-desc">Learn what to feed your kitten, schedules, and transition to adult food.</p>
+                </a>
+                <a href="./dogs/puppy-training-guide.html" class="category-card">
+                    <span class="card-icon">🦴</span>
+                    <h3 class="card-title">Puppy Training Basics</h3>
+                    <p class="card-desc">Essential first steps for potty training, socialization, and basic commands.</p>
+                </a>
+                <a href="./birds-small-pets/budgie-care-guide.html" class="category-card">
+                    <span class="card-icon">🐦</span>
+                    <h3 class="card-title">Beginner Budgie Care Guide</h3>
+                    <p class="card-desc">Everything you need to know about diet, cage setup, and budgie health.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- 3. Pet Care Tools (Separated) -->
+        <section style="margin-bottom: 4rem;">
+            <h2 class="section-title">Interactive Pet Care Tools</h2>
+            <div class="category-grid">
+                <a href="./tools/dog-age-calculator.html" class="category-card">
+                    <span class="card-icon">🐕</span>
+                    <h3 class="card-title">Dog Age Calculator</h3>
+                    <p class="card-desc">Calculate your dog's age in human years based on their breed size category.</p>
+                </a>
+                <a href="./tools/index.html" class="category-card">
+                    <span class="card-icon">🧮</span>
+                    <h3 class="card-title">View All Tools</h3>
+                    <p class="card-desc">Explore more interactive calculators and health tracking tools for your pets.</p>
+                </a>
+            </div>
+        </section>
+        
+        <!-- 4. Trust / About Section -->
+        <section style="margin-bottom: 4rem; text-align: center; max-width: 800px; margin-left: auto; margin-right: auto;">
+            <h2 class="section-title">Why Trust Pet Care World?</h2>
+            <p style="color: var(--text-color, #4b5563); line-height: 1.6; margin-bottom: 1rem;">
+                Our mission is to provide pet owners with practical, evidence-informed guidance. We combine real-world experience in veterinary field care with trusted nutritional and behavioral research to help your pets live healthier, happier lives.
+            </p>
+            <a href="./about/index.html" style="color: var(--primary-color, #2563eb); font-weight: 600; text-decoration: none;">Learn more about our editorial process →</a>
+        </section>
+
+    </main>
+
+    <!-- Footer with Proper Architecture -->
+    <footer class="site-footer" style="background-color: #111827; color: #e5e7eb; padding: 4rem 0 2rem 0; margin-top: 4rem;">
+        <div class="container">
+            <!-- Navigation Links -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+                <div>
+                    <h4 style="color: #fff; margin-bottom: 1rem;">Explore</h4>
+                    <ul style="list-style: none; padding: 0; line-height: 2;">
+                        <li><a href="./cats/index.html" style="color: #9ca3af; text-decoration: none;">Cat Care</a></li>
+                        <li><a href="./dogs/index.html" style="color: #9ca3af; text-decoration: none;">Dog Care</a></li>
+                        <li><a href="./birds-small-pets/index.html" style="color: #9ca3af; text-decoration: none;">Birds & Small Pets</a></li>
+                        <li><a href="./tools/index.html" style="color: #9ca3af; text-decoration: none;">Pet Care Tools</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: #fff; margin-bottom: 1rem;">Health & Wellness</h4>
+                    <ul style="list-style: none; padding: 0; line-height: 2;">
+                        <li><a href="./veterinary-health/index.html" style="color: #9ca3af; text-decoration: none;">Veterinary Health</a></li>
+                        <li><a href="./nutrition/index.html" style="color: #9ca3af; text-decoration: none;">Nutrition Guides</a></li>
+                        <li><a href="./grooming/index.html" style="color: #9ca3af; text-decoration: none;">Grooming Basics</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: #fff; margin-bottom: 1rem;">Company</h4>
+                    <ul style="list-style: none; padding: 0; line-height: 2;">
+                        <li><a href="./about/index.html" style="color: #9ca3af; text-decoration: none;">About Us</a></li>
+                        <li><a href="./contact/index.html" style="color: #9ca3af; text-decoration: none;">Contact</a></li>
+                        <li><a href="./editorial-policy/index.html" style="color: #9ca3af; text-decoration: none;">Editorial Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: #fff; margin-bottom: 1rem;">Legal</h4>
+                    <ul style="list-style: none; padding: 0; line-height: 2;">
+                        <li><a href="./privacy-policy/index.html" style="color: #9ca3af; text-decoration: none;">Privacy Policy</a></li>
+                        <li><a href="./terms/index.html" style="color: #9ca3af; text-decoration: none;">Terms of Use</a></li>
+                        <li><a href="./cookie-policy/index.html" style="color: #9ca3af; text-decoration: none;">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Professional Veterinary Disclaimer -->
+            <div class="footer-disclaimer" style="padding: 1.5rem; background: rgba(255, 255, 255, 0.05); border-left: 4px solid #f59e0b; margin-bottom: 2rem; border-radius: 4px; font-size: 0.9rem;">
+                <strong style="color: #f59e0b;">Veterinary Disclaimer:</strong> The information on Pet Care World is provided for general educational purposes and is not a substitute for professional veterinary diagnosis, treatment, or advice. If your pet has a serious illness, injury, or emergency, contact a qualified veterinarian promptly. Read our full <a href="./medical-disclaimer/index.html" style="color: #60a5fa;">Medical Disclaimer</a>.
+            </div>
+            
+            <div class="footer-bottom" style="border-top: 1px solid #374151; padding-top: 2rem; text-align: center; color: #9ca3af; font-size: 0.875rem;">
+                <p>&copy; 2026 Pet & Animal Care World. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/language.js"></script>
+    <script src="../assets/js/navigation.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/search-index.js"></script>
+    <script src="../assets/js/hero-search.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            initHeroSearch('heroSearchInput', 'heroSearchResults', 'en');
+        });
+    </script>
+</body>
+</html>

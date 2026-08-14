@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Pet & Animal Care World</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+
+    <style>
+        body {
+            font-family: 'Hind Siliguri', 'Inter', var(--font-primary);
+        }
+        .error-container {
+            min-height: 65vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 3rem 1.5rem;
+        }
+        .error-code {
+            font-size: 6rem;
+            font-weight: 800;
+            color: var(--primary-color);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+        .error-emoji {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        .error-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 0.75rem;
+        }
+        .error-desc {
+            color: var(--text-muted);
+            max-width: 500px;
+            margin: 0 auto 2rem auto;
+            line-height: 1.6;
+        }
+        .btn-home-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn-home {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.2s ease;
+        }
+        .btn-home:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="/en/" class="brand-logo">
+                🐾 Pet Care <span>World</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- 404 Main Content -->
+    <main class="container error-container">
+        <div class="error-emoji">🐶🔍</div>
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found / পেজটি পাওয়া যায়নি</h1>
+        <p class="error-desc">
+            The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.<br>
+            আপনি যে পেজটি খুঁজছেন তা মুছে ফেলা হয়েছে অথবা লিংকটি ভুল।
+        </p>
+
+        <!-- Multi-language Return Links -->
+        <div class="btn-home-group">
+            <a href="/en/" class="btn-home">🇺🇸 English Home</a>
+            <a href="/bn/" class="btn-home">🇧🇩 বাংলা হোমপেজ</a>
+            <a href="/hi/" class="btn-home">🇮🇳 हिन्दी होम</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pet & Animal Care World. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

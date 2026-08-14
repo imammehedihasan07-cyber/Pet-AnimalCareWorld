@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ডগ এজ ক্যালকুলেটর: কুকুরের বয়স মানুষের বয়সে হিসাব করুন | পেট অ্যান্ড অ্যানিমেল কেয়ার ওয়ার্ল্ড</title>
+
+    <meta name="description" content="ভেটেরিনারি মানদণ্ড এবং জাতের আকারের ওপর ভিত্তি করে আপনার কুকুরের বয়স মানুষের বয়সে রূপান্তর করুন।">
+    <link rel="canonical" href="https://petandanimalcareworld.com/bn/tools/dog-age-calculator.html" />
+
+    <link rel="alternate" hreflang="en" href="https://petandanimalcareworld.com/en/tools/dog-age-calculator.html" />
+    <link rel="alternate" hreflang="bn" href="https://petandanimalcareworld.com/bn/tools/dog-age-calculator.html" />
+    <link rel="alternate" hreflang="hi" href="https://petandanimalcareworld.com/hi/tools/dog-age-calculator.html" />
+    <link rel="alternate" hreflang="x-default" href="https://petandanimalcareworld.com/en/tools/dog-age-calculator.html" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "ডগ এজ ক্যালকুলেটর",
+      "url": "https://petandanimalcareworld.com/bn/tools/dog-age-calculator.html",
+      "description": "কুকুরের বয়স মানুষের বয়সে রূপান্তর করার ক্যালকুলেটর।",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "All"
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../assets/css/variables.css">
+    <link rel="stylesheet" href="../../assets/css/global.css">
+    <link rel="stylesheet" href="../../assets/css/header.css">
+    <link rel="stylesheet" href="../../assets/css/footer.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+    <link rel="stylesheet" href="../../assets/css/tools.css">
+
+    <style>
+        body { font-family: 'Hind Siliguri', var(--font-primary); }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="../" class="brand-logo">🐾 Pet Care <span>World</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">☰</button>
+
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="../" class="nav-link">হোম</a></li>
+                    <li><a href="../cats/" class="nav-link">বিড়াল</a></li>
+                    <li><a href="../dogs/" class="nav-link">কুকুর</a></li>
+                    <li><a href="../birds-small-pets/" class="nav-link">পাখি ও ছোট প্রাণী</a></li>
+                    <li><a href="../veterinary-health/" class="nav-link">ভেটেরিনারি স্বাস্থ্য</a></li>
+                    <li><a href="../nutrition/" class="nav-link">পুষ্টি</a></li>
+                    <li><a href="../grooming/" class="nav-link">গ্রুমিং</a></li>
+                    <li><a href="./" class="nav-link active">টুলস</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn" id="langBtn" onclick="toggleLangDropdown()">🌐 <span>বাংলা</span> ▾</button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <a href="../../en/tools/dog-age-calculator.html" class="lang-option" onclick="selectLang('en')">🇺🇸 English</a>
+                        <a href="../../bn/tools/dog-age-calculator.html" class="lang-option" onclick="selectLang('bn')">🇧🇩 বাংলা</a>
+                        <a href="../../hi/tools/dog-age-calculator.html" class="lang-option" onclick="selectLang('hi')">🇮🇳 हिन्दी</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="tool-card">
+            <div class="tool-header">
+                <h1>🐶 ডগ এজ ক্যালকুলেটর</h1>
+                <p>কুকুরের আকার ও বয়সের ওপর ভিত্তি করে মানুষের বয়সে কুকুরের বয়স হিসাব করুন।</p>
+            </div>
+
+            <form onsubmit="calculateDogAge(event)">
+                <div class="form-group">
+                    <label for="dogYears">কুকুরের বয়স (বছরে)</label>
+                    <input type="number" id="dogYears" class="form-control" placeholder="যেমন: ৩" min="1" max="25" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="dogSize">কুকুরের আকার / সাইজ</label>
+                    <select id="dogSize" class="form-control">
+                        <option value="small">ছোট জাত (২০ পাউন্ড / ৯ কেজির নিচে)</option>
+                        <option value="medium" selected>মাঝারি জাত (২১–৫০ পাউন্ড / ৯–২৩ কেজি)</option>
+                        <option value="large">বড় জাত (৫১–৯০ পাউন্ড / ২৩–৪১ কেজি)</option>
+                        <option value="giant">দৈত্যাকার জাত (৯০ পাউন্ড / ৪১ কেজির উপরে)</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-submit">মানুষের বয়সে হিসাব করুন 🐾</button>
+            </form>
+
+            <div class="result-box" id="dogResultBox">
+                <div class="result-title">মানুষের বয়সের সমতুল্য</div>
+                <div class="result-value" id="dogHumanAgeOutput">০ বছর</div>
+            </div>
+        </div>
+
+        <section style="max-width: 800px; margin: 0 auto 4rem auto; line-height: 1.8;">
+            <div style="background-color: var(--bg-alt); padding: 1.5rem; border-radius: var(--radius-md); border-left: 4px solid var(--primary-color);">
+                <h3 style="font-size: 1.15rem; margin-bottom: 0.75rem; color: var(--text-main);">প্রয়োজনীয় লিংকসমূহ:</h3>
+                <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.5rem;">
+                    <li>📌 <a href="../dogs/" style="color: var(--primary-color); font-weight: 600; text-decoration: underline;">কুকুরের যত্ন ও স্বাস্থ্য নির্দেশিকা পড়ুন</a></li>
+                    <li>📌 <a href="./" style="color: var(--primary-color); font-weight: 600; text-decoration: underline;">ক্যাট এজ ক্যালকুলেটর টুল ব্যবহার করুন</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-disclaimer">
+                <strong>মেডিকেল ডিসক্লেইমার:</strong> সাইটের তথ্যসমূহ শুধুমাত্র শিক্ষামূলক উদ্দেশ্যে প্রকাশিত।
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; ২০২৬ পেট অ্যান্ড অ্যানিমেল কেয়ার ওয়ার্ল্ড। সর্বস্বত্ব সংরক্ষিত।</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../assets/js/language.js"></script>
+    <script src="../../assets/js/navigation.js"></script>
+    <script src="../../assets/js/tools.js"></script>
+    <script src="../../assets/js/app.js"></script>
+</body>
+</html>
