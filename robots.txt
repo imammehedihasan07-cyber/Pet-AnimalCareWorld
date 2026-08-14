@@ -7,4 +7,4 @@ Disallow: /assets/js/
 Disallow: /docs/
 
 # Sitemap location
-Sitemap: https://petandanimalcareworld.com/sitemap.xml
+Sitemap: https://petandanimalcareworld.vercel.app/sitemap.xml
